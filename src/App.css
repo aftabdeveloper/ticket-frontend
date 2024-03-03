@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* YourFormComponent.css */
+
+.custom-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-form-item-label {
+  text-align: left; /* Adjust label alignment */
+}
+
+.custom-form .ant-select-selection {
+  border-color: #40a9ff; /* Customize select border color */
+}
+
+.custom-form .ant-btn {
+  background-color: #40a9ff; /* Customize button background color */
+  border-color: #40a9ff; /* Customize button border color */
+  color: #fff; /* Customize button text color */
+}
+
+.custom-form .ant-btn:hover {
+  background-color: #1890ff; /* Change button color on hover */
+  border-color: #1890ff;
+}
